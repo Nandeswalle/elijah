@@ -1,0 +1,49 @@
+table tr td{
+     text-align: center;
+     font-size: 50px;
+}
+.chessboard { 
+     width: 400px; 
+     height: 400px; 
+     display: flex; 
+     flex-wrap: wrap; font-size: 40px;
+     border: 2px solid black;
+ }
+ 
+ .chesspiece {
+      width: 100px; 
+      height: 100px; 
+      background-color: white; 
+      border: 1px solid black; 
+      box-sizing: border-box; 
+     } 
+     
+     .bishop { 
+               background-image: url('bishop.png'); 
+               background-size: 100% 100%    
+     }    
+     
+     .king{
+          background-image: url('king.png');
+          background-size: 100% 100% 
+     } 
+
+     .queen{
+          background-image: url('queen.png');
+          background-size: 100% 100%
+     }
+
+     .pawn{
+          background-image: url('pawn.png');
+          background-size: 100% 100%;
+     }
+
+     .rock{
+          background-image: url('rook.png');
+          background-size: 100% 100%;
+     }
+
+     .knight{
+          background-image: url("knight.png");
+          background-size: 100% 100%;
+     }
